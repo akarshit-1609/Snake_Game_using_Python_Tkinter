@@ -9,14 +9,16 @@ A simple Python Snake game built with Tkinter.
 ## Download Pre-built Binary
 
 You can download the pre-compiled game.
-- [For Windows](https://github.com/akarshit-1609/Snake_Game_using_Python_Tkinter/raw/refs/heads/main/dist/snake_game-v1-windows.exe)
-- [For Linux](https://github.com/akarshit-1609/Snake_Game_using_Python_Tkinter/raw/refs/heads/main/dist/snake_game-v1-linux)
+- [For Windows](https://github.com/akarshit-1609/Snake_Game_using_Python_Tkinter/raw/refs/heads/main/dist/snake_game-v2-windows.exe)
+- [For Linux](https://github.com/akarshit-1609/Snake_Game_using_Python_Tkinter/raw/refs/heads/main/dist/snake_game-v2-linux)
 
 ---
 
 ## How to Play
-Press **F1** key to start or restart the game.<br>
-*Left*, *Right*, *Up* and *Down* keys for move direction of snake.
+ - Click or Enter Start button to start or restart the game.<br>
+ - *Left*, *Right*, *Up* and *Down* keys for change direction of snake.<br>
+ - *Left* and *Right* keys for change speed of snake or board cells in a rows and column during hover on the button.<br>
+ - *Esc* key for resign running game.
 
 ---
 
@@ -31,6 +33,6 @@ Press **F1** key to start or restart the game.<br>
 ## Requirements for Source Code
 
 - Python 3.x installed on your system
-- Tkinter library (comes pre-installed with standard Python distributions)
+- Tkinter and webbrowser library (comes pre-installed with standard Python distributions)
 
 ---
