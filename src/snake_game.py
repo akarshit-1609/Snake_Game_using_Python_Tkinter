@@ -40,7 +40,7 @@ box_place = []
 score = 0
 x = 0
 y = 0
-out = False
+out = True
 
 options = ["Start", "Board Size", "Speed", "Score", "About", "Quit"]
 board_cells = [10, 25, 50, 75, 100, 200]
@@ -78,6 +78,10 @@ def restart_game(e):
     options_field_width = window_width - canvas_width - 40
     options_field_height = canvas_height
     if (e != None):
+        if e.widget is not window:
+            return None
+        elif (out == False):
+            out = True
         canvas.config(width=canvas_width, height=canvas_height)
         options_field.config(width=options_field_width, height=options_field_height)
         for i, text in enumerate(options):
@@ -90,7 +94,6 @@ def restart_game(e):
                 stat_records[text][0].pack_configure(padx=int(options_field_width-(options_field_width*0.8)))
                 stat_records[text][1].config(font=("monospace", int(options_field_height/30), "bold"))
     score = 0
-    out = False
     direction = "right"
     stat_records["Score"][1].config(text=str(score))
     canvas.itemconfig(score_label, text="")
@@ -316,6 +319,8 @@ for i, option in enumerate(options):
 window.bind("<Configure>", restart_game)
 
 def start(e):
+    global out
+    out = False
     window.bind("<Left>",left)
     window.bind("<Right>",right)
     window.bind("<Up>",up)
