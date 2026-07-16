@@ -36,3 +36,9 @@ You can download the pre-compiled game.
 - Tkinter and webbrowser library (comes pre-installed with standard Python distributions)
 
 ---
+
+## License
+
+This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
+
+---
