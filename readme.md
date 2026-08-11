@@ -10,7 +10,7 @@ A simple Python Snake game built with Tkinter.
 
 You can download the pre-compiled game.
 - [For Windows](https://github.com/akarshit-1609/Snake_Game_using_Python_Tkinter/releases/download/v2.1.0/snake_game-v2.1-windows.exe)
-- [For Linux (AppImage)](https://github.com/akarshit-1609/Snake_Game_using_Python_Tkinter/releases/download/v2.1.0/Snake_Game_glibc-2.39_linux-x86_64.AppImage)
+- [For Linux (AppImage)](https://github.com/akarshit-1609/Snake_Game_using_Python_Tkinter/releases/download/v2.1.0/Snake_Game_glibc-2.31_linux-x86_64.AppImage)
 
 ---
 
