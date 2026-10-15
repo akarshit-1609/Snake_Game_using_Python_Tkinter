@@ -12,6 +12,21 @@ You can download the pre-compiled game.
 - [For Windows](https://github.com/akarshit-1609/Snake_Game_using_Python_Tkinter/releases/download/v2.1.0/snake_game-v2.1-windows.exe)
 - [For Linux (AppImage)](https://github.com/akarshit-1609/Snake_Game_using_Python_Tkinter/releases/download/v2.1.0/Snake_Game_glibc-2.31_linux-x86_64.AppImage)
 
+> [!WARNING]
+> **⚠️ Windows SmartScreen Warning**
+>
+> When running the Windows `.exe` binary, Windows SmartScreen may display a **"Windows protected your PC"** warning. This can occur because the executable is not signed with an expensive code-signing certificate.
+>
+> **How to run the application:**
+> 1. Click **"More info"** on the SmartScreen warning.
+> 2. Click **"Run anyway"** to proceed.
+>
+> **🔓 100% Open Source & Transparent**
+>
+> This project is fully open source. You can review the complete source code in this repository to understand how the application works and verify its behavior before running it. You are encouraged to inspect the code and build the application from source if you prefer.
+>
+> *This warning does not necessarily indicate that an application is malicious; however, always review the source code and ensure you trust the application before running it.*
+
 ---
 
 ## How to Play
